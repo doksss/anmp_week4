@@ -37,6 +37,14 @@ class StudentListFragment : Fragment() {
         binding.recView.adapter = studentListAdapter
 
         observeViewModel()
+        //jika kita swipe kebawah buat ngeluarin loading icon itu maka ini akan dijalankan
+        binding.refreshLayout.setOnRefreshListener {
+            viewModel.refresh() //menyuruh viewmodel nge volley lagi
+            binding.recView.visibility = View.GONE
+            binding.txtError.visibility = View.GONE
+            binding.progressLoad.visibility = View.VISIBLE
+            binding.refreshLayout.isRefreshing = false //loadingnya dimatikan supaya ga muncul terus
+        }
     }
 
     fun observeViewModel() {
