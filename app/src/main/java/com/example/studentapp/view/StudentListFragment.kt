@@ -30,7 +30,7 @@ class StudentListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         viewModel = ViewModelProvider(this).get(ListViewModel::class.java)
-        viewModel.refresh()
+        viewModel.refresh() //memanggil volly nya kembali
 
         //set layoutManager supaya bisa jalankan recycle view
         binding.recView.layoutManager = LinearLayoutManager(context)
