@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "brand": "Apple",
+        "model": "iPhone 13",
+        "release_year": 2023,
+        "colors": ["Black", "White", "Blue", "Red"],
+        "specifications": {
+            "display": "6.1 inches Super Retina XDR OLED",
+            "processor": "Apple A15 Bionic",
+            "camera": "Dual 12 MP, 12 MP front camera",
+            "battery": "Non-removable Li-Ion 3285 mAh"
+        }
+    },
+    {
+        "id": 2,
+        "brand": "Samsung",
+        "model": "Galaxy S23",
+        "release_year": 2023,
+        "colors": ["Phantom Black", "Phantom Silver", "Phantom Violet", "Phantom Pink"],
+        "specifications": {
+            "display": "6.6 inches Dynamic AMOLED 2X",
+            "processor": "Exynos 8000",
+            "camera": "Quad 108 MP, 40 MP front camera",
+            "battery": "Li-Po 5000 mAh"
+        }
+    },
+    {
+        "id": 3,
+        "brand": "Google",
+        "model": "Pixel 7",
+        "release_year": 2023,
+        "colors": ["Just Black", "Sorta Sage", "Kinda Coral"],
+        "specifications": {
+            "display": "6.2 inches OLED",
+            "processor": "Google Tensor",
+            "camera": "Dual 50 MP, 12 MP front camera",
+            "battery": "Non-removable Li-Po 4000 mAh"
+        }
+    },
+    {
+        "id": 4,
+        "brand": "OnePlus",
+        "model": "9T",
+        "release_year": 2023,
+        "colors": ["Stellar Black", "Stellar Blue"],
+        "specifications": {
+            "display": "6.78 inches Fluid AMOLED",
+            "processor": "Snapdragon 898",
+            "camera": "Triple 108 MP, 32 MP front camera",
+            "battery": "Non-removable Li-Po 5000 mAh"
+        }
+    },
+    {
+        "id": 5,
+        "brand": "Xiaomi",
+        "model": "Redmi Note 12 Pro",
+        "release_year": 2023,
+        "colors": ["Glacier White", "Moonlight Silver", "Starry Night Blue"],
+        "specifications": {
+            "display": "6.8 inches IPS LCD",
+            "processor": "MediaTek Dimensity 2000",
+            "camera": "Quad 108 MP, 32 MP front camera",
+            "battery": "Li-Po 5500 mAh"
+        }
+    },
+    {
+        "id": 6,
+        "brand": "Sony",
+        "model": "Xperia 2",
+        "release_year": 2023,
+        "colors": ["Black", "White", "Purple"],
+        "specifications": {
+            "display": "6.5 inches OLED",
+            "processor": "Snapdragon 895",
+            "camera": "Triple 64 MP, 12 MP front camera",
+            "battery": "Non-removable Li-Po 4500 mAh"
+        }
+    },
+    {
+        "id": 7,
+        "brand": "Huawei",
+        "model": "Mate 50 Pro",
+        "release_year": 2023,
+        "colors": ["Obsidian Black", "Glazed Ceramic White", "Forest Green"],
+        "specifications": {
+            "display": "6.8 inches OLED",
+            "processor": "HiSilicon Kirin 9000",
+            "camera": "Quad 108 MP, 32 MP front camera",
+            "battery": "Li-Po 4600 mAh"
+        }
+    },
+    {
+        "id": 8,
+        "brand": "Motorola",
+        "model": "Edge 30",
+        "release_year": 2023,
+        "colors": ["Cosmic Gray", "Starry Blue"],
+        "specifications": {
+            "display": "6.9 inches OLED",
+            "processor": "Snapdragon 895",
+            "camera": "Triple 108 MP, 32 MP front camera",
+            "battery": "Non-removable Li-Po 4800 mAh"
+        }
+    },
+    {
+        "id": 9,
+        "brand": "Nokia",
+        "model": "G20",
+        "release_year": 2023,
+        "colors": ["Night", "Glacier", "Dusk"],
+        "specifications": {
+            "display": "6.5 inches IPS LCD",
+            "processor": "Mediatek Helio G35",
+            "camera": "Quad 48 MP, 8 MP front camera",
+            "battery": "Non-removable Li-Po 5050 mAh"
+        }
+    },
+    {
+        "id": 10,
+        "brand": "Realme",
+        "model": "GT Neo 3",
+        "release_year": 2023,
+        "colors": ["Solar Black", "Lunar White"],
+        "specifications": {
+            "display": "6.7 inches Super AMOLED",
+            "processor": "Snapdragon 888",
+            "camera": "Triple 64 MP, 32 MP front camera",
+            "battery": "Non-removable Li-Po 5000 mAh"
+        }
+    }
+]
