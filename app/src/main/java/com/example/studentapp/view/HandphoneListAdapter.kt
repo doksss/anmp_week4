@@ -20,10 +20,17 @@ class HandphoneListAdapter(val handphoneList: ArrayList<Handphone>)
         holder.binding.txtId.text = handphoneList[position].id
         holder.binding.txtBrand.text = handphoneList[position].brand
         holder.binding.txtModel.text = handphoneList[position].model
-        var colors = listOf(handphoneList[position].colors)
+        var colors = handphoneList[position].colors
+        var size = colors.size
+        var i = 0
         var text = ""
         for(color in colors){
-            text += color
+            if(i>=size-1){
+                text += color
+            }else{
+                text += color + ", "
+            }
+            i++
         }
         holder.binding.txtColors.text = text
         holder.binding.txtRelease.text = handphoneList[position].releaseyear
